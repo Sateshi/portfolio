@@ -222,7 +222,7 @@ onMounted(() => {
                   
                   > <span class="text-orange-400 hover:text-orange-300 transition-colors duration-300">"Code is poetry, bugs are typos"</span><br><br>
                   
-                  Passionate about solving problems with clean, maintainable code. When I'm not debugging, you'll find me exploring new technologies or contributing to open source projects.
+                  Passionate about solving problems with clean, maintainable code. When I'm not debugging, you'll find me exploring new technologies.
                 </div>
               </div>
             </div>
