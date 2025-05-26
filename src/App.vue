@@ -190,6 +190,79 @@ onMounted(() => {
               </p>
             </div>
           </div>
+          
+          <!-- Projects Grid -->
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 lg:gap-10">
+            <!-- SideGeek Project -->
+            <div class="bg-black/30 border border-gray-700 rounded p-4 sm:p-5 lg:p-6 hover-lift hover-glow scroll-animate group">
+              <div class="mb-4 sm:mb-6">
+                <div class="flex items-center justify-between mb-3 sm:mb-4">
+                  <h3 class="text-lg sm:text-xl md:text-2xl font-bold text-white group-hover:text-green-400 transition-colors duration-300">
+                    <span class="text-green-400">></span> SideGeek
+                  </h3>
+                  <div class="flex space-x-2">
+                    <span class="px-2 py-1 bg-green-600/20 text-green-400 text-xs rounded border border-green-600/30">Nuxt 3</span>
+                    <span class="px-2 py-1 bg-purple-600/20 text-purple-400 text-xs rounded border border-purple-600/30">Laravel 10</span>
+                  </div>
+                </div>
+                <div class="text-gray-500 text-xs sm:text-sm mb-3 sm:mb-4 font-mono">
+                  // Talent recruitment platform for MolenGeek
+                </div>
+                <p class="text-sm sm:text-base text-gray-300 leading-relaxed mb-4 sm:mb-6 hover:text-gray-200 transition-colors duration-300">
+                  A comprehensive talent recruitment platform connecting MolenGeek students with potential employers. Features student profiles, skill showcases, and streamlined hiring processes for companies looking for diverse tech talent.
+                </p>
+                <div class="text-xs sm:text-sm text-gray-400 mb-4 sm:mb-6">
+                  <span class="text-green-400">✓</span> Student portfolio management<br>
+                  <span class="text-green-400">✓</span> Company recruitment dashboard<br>
+                  <span class="text-green-400">✓</span> Skills matching algorithm<br>
+                  <span class="text-green-400">✓</span> Multilingual support (FR/EN/NL)
+                </div>
+              </div>
+              <div class="flex flex-col sm:flex-row gap-3 sm:gap-4">
+                <a href="https://sidegeek.com/fr/" target="_blank" rel="noopener noreferrer" class="flex-1 px-4 py-2 bg-green-600 text-black font-bold hover:brightness-110 transition-all duration-150 text-center text-sm font-mono border border-green-600">
+                  ./visit_site.sh
+                </a>
+                <button class="flex-1 px-4 py-2 border border-gray-500 text-gray-300 font-bold hover:text-white hover:border-gray-400 transition-colors duration-150 text-sm font-mono">
+                  git info --private
+                </button>
+              </div>
+            </div>
+
+            <!-- MolenGeek Education Project -->
+            <div class="bg-black/30 border border-gray-700 rounded p-4 sm:p-5 lg:p-6 hover-lift hover-glow scroll-animate group">
+              <div class="mb-4 sm:mb-6">
+                <div class="flex items-center justify-between mb-3 sm:mb-4">
+                  <h3 class="text-lg sm:text-xl md:text-2xl font-bold text-white group-hover:text-green-400 transition-colors duration-300">
+                    <span class="text-green-400">></span> MolenGeek Education
+                  </h3>
+                  <div class="flex space-x-2">
+                    <span class="px-2 py-1 bg-blue-600/20 text-blue-400 text-xs rounded border border-blue-600/30">Nuxt 2</span>
+                    <span class="px-2 py-1 bg-purple-600/20 text-purple-400 text-xs rounded border border-purple-600/30">Laravel 8</span>
+                  </div>
+                </div>
+                <div class="text-gray-500 text-xs sm:text-sm mb-3 sm:mb-4 font-mono">
+                  // Educational platform for MolenGeek classes
+                </div>
+                <p class="text-sm sm:text-base text-gray-300 leading-relaxed mb-4 sm:mb-6 hover:text-gray-200 transition-colors duration-300">
+                  An educational management system designed for MolenGeek's internal training programs. Facilitates course management, student progress tracking, and interactive learning experiences for coding bootcamps and tech training.
+                </p>
+                <div class="text-xs sm:text-sm text-gray-400 mb-4 sm:mb-6">
+                  <span class="text-green-400">✓</span> Course content management<br>
+                  <span class="text-green-400">✓</span> Student progress tracking<br>
+                  <span class="text-green-400">✓</span> Interactive coding exercises<br>
+                  <span class="text-green-400">✓</span> Instructor dashboard
+                </div>
+              </div>
+              <div class="flex flex-col sm:flex-row gap-3 sm:gap-4">
+                <a href="https://molengeek.education/" target="_blank" rel="noopener noreferrer" class="flex-1 px-4 py-2 bg-green-600 text-black font-bold hover:brightness-110 transition-all duration-150 text-center text-sm font-mono border border-green-600">
+                  ./visit_site.sh
+                </a>
+                <button class="flex-1 px-4 py-2 border border-gray-500 text-gray-300 font-bold hover:text-white hover:border-gray-400 transition-colors duration-150 text-sm font-mono">
+                  git info --private
+                </button>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
       
