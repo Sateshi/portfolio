@@ -107,6 +107,9 @@ onMounted(() => {
           <a href="#work" class="group px-4 sm:px-6 py-2 sm:py-3 bg-green-600 text-black font-bold hover:brightness-110 transition-all duration-150 border border-green-600 text-sm sm:text-base w-full sm:w-auto text-center">
             <span>./view_projects.sh</span>
           </a>
+          <a href="https://github.com/sateshi" target="_blank" rel="noopener noreferrer" class="px-4 sm:px-6 py-2 sm:py-3 border border-gray-500 text-gray-300 font-bold hover:text-white hover:border-gray-400 transition-colors duration-150 text-sm sm:text-base w-full sm:w-auto text-center">
+            <span>git clone github</span>
+          </a>
           <a href="#contact" class="px-4 sm:px-6 py-2 sm:py-3 border border-blue-500 text-blue-400 font-bold hover:text-blue-300 transition-colors duration-150 text-sm sm:text-base w-full sm:w-auto text-center">
             <span>git contact</span>
           </a>
@@ -152,6 +155,9 @@ onMounted(() => {
             </a>
             <a href="#about" @click="closeMobileMenu" class="block px-3 py-2 text-sm font-bold text-gray-300 hover:text-green-400 hover:bg-gray-800/50 rounded transition-all duration-150">
               <span class="text-green-400">$</span> cat about.md
+            </a>
+            <a href="https://github.com/sateshi" target="_blank" rel="noopener noreferrer" @click="closeMobileMenu" class="block px-3 py-2 text-sm font-bold text-gray-300 hover:text-green-400 hover:bg-gray-800/50 rounded transition-all duration-150">
+              <span class="text-green-400">$</span> git clone github
             </a>
             <a href="#contact" @click="closeMobileMenu" class="block px-3 py-2 text-sm font-bold text-gray-300 hover:text-green-400 hover:bg-gray-800/50 rounded transition-all duration-150">
               <span class="text-green-400">$</span> ping me
@@ -204,7 +210,7 @@ onMounted(() => {
                   <span class="text-yellow-400 hover:text-yellow-300 transition-colors duration-300">const</span> <span class="text-blue-400 hover:text-blue-300 transition-colors duration-300">developer</span> = {<br>
                   &nbsp;&nbsp;<span class="text-green-300 hover:text-green-200 transition-colors duration-300">passion</span>: <span class="text-orange-400 hover:text-orange-300 transition-colors duration-300">"Solving problems with code"</span>,<br>
                   &nbsp;&nbsp;<span class="text-green-300 hover:text-green-200 transition-colors duration-300">editor</span>: <span class="text-orange-400 hover:text-orange-300 transition-colors duration-300">"VSCode"</span>,<br>
-                  &nbsp;&nbsp;<span class="text-green-300 hover:text-green-200 transition-colors duration-300">os</span>: <span class="text-orange-400 hover:text-orange-300 transition-colors duration-300">"Windows, MacOS,Linux (btw I use Arch)"</span>,<br>
+                  &nbsp;&nbsp;<span class="text-green-300 hover:text-green-200 transition-colors duration-300">os</span>: <span class="text-orange-400 hover:text-orange-300 transition-colors duration-300">"Windows, MacOS, Linux (btw I use Arch)"</span>,<br>
                   &nbsp;&nbsp;<span class="text-green-300 hover:text-green-200 transition-colors duration-300">languages</span>: [<span class="text-orange-400 hover:text-orange-300 transition-colors duration-300">"JavaScript", "TypeScript", "PHP"</span>],<br>
                   &nbsp;&nbsp;<span class="text-green-300 hover:text-green-200 transition-colors duration-300">motto</span>: <span class="text-orange-400 hover:text-orange-300 transition-colors duration-300">"Code is poetry, bugs are typos"</span><br>
                   };
