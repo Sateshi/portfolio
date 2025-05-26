@@ -212,6 +212,7 @@ onMounted(() => {
                   &nbsp;&nbsp;<span class="text-green-300 hover:text-green-200 transition-colors duration-300">editor</span>: <span class="text-orange-400 hover:text-orange-300 transition-colors duration-300">"VSCode"</span>,<br>
                   &nbsp;&nbsp;<span class="text-green-300 hover:text-green-200 transition-colors duration-300">os</span>: <span class="text-orange-400 hover:text-orange-300 transition-colors duration-300">"Windows, MacOS, Linux (btw I use Arch)"</span>,<br>
                   &nbsp;&nbsp;<span class="text-green-300 hover:text-green-200 transition-colors duration-300">languages</span>: [<span class="text-orange-400 hover:text-orange-300 transition-colors duration-300">"JavaScript", "TypeScript", "PHP"</span>],<br>
+                  &nbsp;&nbsp;<span class="text-green-300 hover:text-green-200 transition-colors duration-300">frameworks</span>: [<span class="text-orange-400 hover:text-orange-300 transition-colors duration-300">"React", "Laravel", "Nuxt", "Vue", "Django"</span>],<br>
                   &nbsp;&nbsp;<span class="text-green-300 hover:text-green-200 transition-colors duration-300">motto</span>: <span class="text-orange-400 hover:text-orange-300 transition-colors duration-300">"Code is poetry, bugs are typos"</span><br>
                   };
                 </p>
