@@ -205,20 +205,25 @@ onMounted(() => {
               <h2 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-white mb-6 sm:mb-8">
                 <span class="text-green-400 hover:animate-pulse">#</span> About <span class="text-blue-400 hover:text-blue-300 transition-colors duration-300">Me</span>
               </h2>
-              <div class="text-gray-300 leading-relaxed space-y-3 sm:space-y-4">
-                <p class="hover:text-gray-200 transition-colors duration-300 text-xs sm:text-sm md:text-base lg:text-lg">
-                  <span class="text-yellow-400 hover:text-yellow-300 transition-colors duration-300">const</span> <span class="text-blue-400 hover:text-blue-300 transition-colors duration-300">developer</span> = {<br>
-                  &nbsp;&nbsp;<span class="text-green-300 hover:text-green-200 transition-colors duration-300">passion</span>: <span class="text-orange-400 hover:text-orange-300 transition-colors duration-300">"Solving problems with code"</span>,<br>
-                  &nbsp;&nbsp;<span class="text-green-300 hover:text-green-200 transition-colors duration-300">editor</span>: <span class="text-orange-400 hover:text-orange-300 transition-colors duration-300">"VSCode"</span>,<br>
-                  &nbsp;&nbsp;<span class="text-green-300 hover:text-green-200 transition-colors duration-300">os</span>: <span class="text-orange-400 hover:text-orange-300 transition-colors duration-300">"Windows, MacOS, Linux (btw I use Arch)"</span>,<br>
-                  &nbsp;&nbsp;<span class="text-green-300 hover:text-green-200 transition-colors duration-300">languages</span>: [<span class="text-orange-400 hover:text-orange-300 transition-colors duration-300">"JavaScript", "TypeScript", "PHP"</span>],<br>
-                  &nbsp;&nbsp;<span class="text-green-300 hover:text-green-200 transition-colors duration-300">frameworks</span>: [<span class="text-orange-400 hover:text-orange-300 transition-colors duration-300">"React", "Laravel", "Nuxt", "Vue", "Django"</span>],<br>
-                  &nbsp;&nbsp;<span class="text-green-300 hover:text-green-200 transition-colors duration-300">motto</span>: <span class="text-orange-400 hover:text-orange-300 transition-colors duration-300">"Code is poetry, bugs are typos"</span><br>
-                  };
-                </p>
-                <p class="text-gray-400 hover:text-gray-300 transition-colors duration-300 text-xs sm:text-sm md:text-base">
-                  // I don't just write code, I live it. Started with "Hello World" and never looked back.<br>
-                </p>
+              <div class="text-gray-300 leading-relaxed space-y-3 sm:space-y-4 text-left">
+                <div class="hover:text-gray-200 transition-colors duration-300 text-xs sm:text-sm md:text-base lg:text-lg">
+                  <span class="text-blue-400 hover:text-blue-300 transition-colors duration-300"># About Me</span><br><br>
+                  
+                  I don't just write code, I live it. Started with "Hello World" and never looked back.<br><br>
+                  
+                  <span class="text-green-400 hover:text-green-300 transition-colors duration-300">## Tech Stack</span><br><br>
+                  
+                  <span class="text-yellow-400 hover:text-yellow-300 transition-colors duration-300">**Languages:**</span> JavaScript, TypeScript, PHP<br>
+                  <span class="text-yellow-400 hover:text-yellow-300 transition-colors duration-300">**Frameworks:**</span> React, Laravel, Nuxt, Vue, Django<br>
+                  <span class="text-yellow-400 hover:text-yellow-300 transition-colors duration-300">**Editor:**</span> VSCode<br>
+                  <span class="text-yellow-400 hover:text-yellow-300 transition-colors duration-300">**OS:**</span> Windows, MacOS, Linux (btw I use Arch)<br><br>
+                  
+                  <span class="text-green-400 hover:text-green-300 transition-colors duration-300">## Philosophy</span><br><br>
+                  
+                  > <span class="text-orange-400 hover:text-orange-300 transition-colors duration-300">"Code is poetry, bugs are typos"</span><br><br>
+                  
+                  Passionate about solving problems with clean, maintainable code. When I'm not debugging, you'll find me exploring new technologies or contributing to open source projects.
+                </div>
               </div>
             </div>
           </div>
