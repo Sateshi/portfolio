@@ -209,12 +209,13 @@ onMounted(() => {
                   // Talent recruitment platform for MolenGeek
                 </div>
                 <p class="text-sm sm:text-base text-gray-300 leading-relaxed mb-4 sm:mb-6 hover:text-gray-200 transition-colors duration-300">
-                  A comprehensive talent recruitment platform connecting MolenGeek students with potential employers. Features student profiles, skill showcases, and streamlined hiring processes for companies looking for diverse tech talent.
+                  A comprehensive talent recruitment platform connecting MolenGeek students with potential employers. Features student profiles, skill showcases, and streamlined hiring processes for companies looking for diverse tech talent. Seamlessly integrates with MolenGeek Education via REST API.
                 </p>
                 <div class="text-xs sm:text-sm text-gray-400 mb-4 sm:mb-6">
                   <span class="text-green-400">✓</span> Student portfolio management<br>
                   <span class="text-green-400">✓</span> Company recruitment dashboard<br>
                   <span class="text-green-400">✓</span> Skills matching algorithm<br>
+                  <span class="text-green-400">✓</span> API integration with MolenGeek Education<br>
                   <span class="text-green-400">✓</span> Multilingual support (FR/EN/NL)
                 </div>
               </div>
@@ -244,13 +245,15 @@ onMounted(() => {
                   // Educational platform for MolenGeek classes
                 </div>
                 <p class="text-sm sm:text-base text-gray-300 leading-relaxed mb-4 sm:mb-6 hover:text-gray-200 transition-colors duration-300">
-                  An educational management system designed for MolenGeek's internal training programs. Facilitates course management, student progress tracking, and interactive learning experiences for coding bootcamps and tech training.
+                  An educational management system designed for MolenGeek's internal training programs. Facilitates course management, student progress tracking, and interactive learning experiences for coding bootcamps and tech training. Provides data to SideGeek platform through secure API endpoints.
                 </p>
                 <div class="text-xs sm:text-sm text-gray-400 mb-4 sm:mb-6">
                   <span class="text-green-400">✓</span> Course content management<br>
                   <span class="text-green-400">✓</span> Student progress tracking<br>
                   <span class="text-green-400">✓</span> Interactive coding exercises<br>
-                  <span class="text-green-400">✓</span> Instructor dashboard
+                  <span class="text-green-400">✓</span> Instructor dashboard<br>
+                  <span class="text-green-400">✓</span> REST API for SideGeek integration<br>
+                  <span class="text-green-400">✓</span> Multilingual interface (FR/EN/NL)
                 </div>
               </div>
               <div class="flex flex-col sm:flex-row gap-3 sm:gap-4">
