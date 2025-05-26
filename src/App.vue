@@ -41,9 +41,9 @@ onMounted(() => {
 
   // Enhanced smooth scrolling for anchor links
   document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function (e) {
+    anchor.addEventListener('click', function (e: Event) {
       e.preventDefault()
-      const target = document.querySelector(this.getAttribute('href'))
+      const target = document.querySelector((e.currentTarget as HTMLAnchorElement).getAttribute('href') || '')
       if (target) {
         target.scrollIntoView({
           behavior: 'smooth',
